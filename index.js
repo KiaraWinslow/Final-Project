@@ -228,7 +228,7 @@
 
 	$.fn.lineLoader.defaults = {
 
-		text: 'BAY ADVENTURE',
+		text: 'BAY ADVENTURES',
 		color: '#2c3e50',
 		lineSize: 1.5,
 		lineJoin: 'round',
