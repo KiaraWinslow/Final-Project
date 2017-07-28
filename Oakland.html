@@ -174,7 +174,8 @@ function showSlides() {
 </script>	
 
 
-<meta charset="UTF-8">
+<head>
+  <meta charset="UTF-8">
   <title>1-4 expanding responsive columns</title>
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -196,7 +197,7 @@ body {
 	column-gap: 2em;
 	column-rule: 2px outset rgba(255, 255, 255);
 }
-.module {
+.module:not(.invisible) {
 	display: inline-block;
 	margin: 10px 0 1em 0;
 	list-style: none;
@@ -214,79 +215,114 @@ p {
 </head>
 
 <body>
-	
   <section class="grid">
 		<div class="module">
 			<p>
-			<h1 style ="text-align:center;">Foods In Hayward</h1>
-			Taqueria Senaida's <br> Address: 150 Tennyson Rd. Hayward, CA 94544 <br> Phone #: (510) 783-6031 
+			<h2>Best Restaurants:</h2>
+			   <h4> - Boiling Crab <br/>
+				  71 Curtner Ave, San Jose, CA 95125 <br/>
+				   <br>
+				-Taqueria Eduardo <br/>
+				 3123 Williamsburg Dr, San Jose, CA 95117<br/>
+				   <br> 
+				-Gen Korean BBQ House<br/>
+				 1628 Hostetter Rd, San Jose, CA 95131<br/>
+				   <br>
+				-Falafel's Drive-In<br/>
+				 2301 Stevens Creek Blvd, San Jose, CA 95128<br/>
+				   <br>
+				-Mizu Sushi Bar & Grill<br/>
+				 1035 S Winchester Blvd, San Jose, CA 95128 <br/></h4>			
 			</p>
+		</div>
+		<div class="module">
+			<p>
+			<h2>Best Snack Shops:</h2>
+			
+			
+			</p>
+		</div>
+	<div class="invisible">
+			<p>
+			<h2></h2>
+			Shankle bacon dolor non, shoulder in commodo mollit ullamco dolore short loin eu irure labore jowl. Minim beef filet mignon, chuck consectetur ut in sausage deserunt capicola. Dolore bresaola consequat, ham hock aliqua sirloin short loin est pancetta venison frankfurter capicola. Fugiat jerky bresaola nisi. <a href="#">Pork chop consectetur tempor in kielbasa ex.</a>
+			</p>
+		</div>
+		<div class="module">
+			<p>
+			<h2> Shops To Visit: </h2>
+			   <h4> -Grand Century Mall <br/>
+				 1111 Story Rd, San Jose, CA 95122 <br/>
+				 <br>
+				 -Japantown Farmer's Market <br/>
+				  251-, 299 Jackson St, San Jose, CA 95112 <br/>
+				  <br>
+				  -Namaste Plaza <br/>
+				   1763 E Capitol Expy, San Jose, CA 95121 <br/>
+				   <br>
+				  -Mi Pueblo Food Center <br/>
+				   1745 Story Rd, San Jose, CA 95122 <br/>
+				   <br>
+				  -La Villa <br/>
+				   1319 Lincoln Ave, San Jose, CA 95125 <br/>
+				   <br>	
+			</p>
+		</div>
+		<div class="module">
+			<p>
+			<h2> Major Shopping Centers: </h2>
+			  <h4> -Westfield Valley Fair <br/>
+				2855 Stevens Creek Blvd, Santa Clara, CA 95050 <br/>
+				<br>
+			       - Santana Row <br/>
+				 377 Santana Row, San Jose, CA 95128 <br/>
+				 <br>
+			       -Westfield Oakridge <br/>
+				925 Blossom Hill Rd, San Jose, CA 95123 <br/>
+				<br>
+			        -Eastridge Center <br/>
+				 2200 Eastridge Loop #2062, San Jose, CA 95122 <br/>
+				 <br>	 
+			</p>
+		</div>
+		<div class="module">
+			<p>
+			<h2> Cool Events To Attend: </h2>
+			  <h4> -Dia De Los Muertos <br/>
+				When: around Halloween time <br/>
+				Where: Calvary Catholic Cemetary <br/>
+				       2650 Madden Ave, San Jose, CA 95116 <br/>
+				  <a href="https://www.everfest.com/e/san-jose-dia-de-los-muertos-festival-san-jose-ca"> Click here for more information </a> <br/>
+				<br>
+				-Festival of Globe Extravaganza 2017 <br/>
+				 When: August 4 - August 13 <br/>
+				 Where: multiple locations in San Jose <br/>
+				 <a href="https://www.everfest.com/e/festival-of-globe-extravaganza-san-jose-ca"> Click here for more information </a> <br/> 
+				 <br/>
+				-Mar Yosip Parish Assyrian Food Festival 2017 <br/>
+				 When: August 19 - August 20 <br/>
+				 Where: East Mar Yosip Parish <br/>
+				  	680 Minnesota Ave, San Jose, CA 95125 <br/>
+				  <a href="https://www.everfest.com/e/mar-yosip-parish-assyrian-food-festival-san-jose-ca"> Click here for more information </a> <br/>
+				  <br>
+				 -Chacho's Taco Festival 2017 <br/>
+				  When: sometime in August; dates uncomfirmed <br/>
+				  Where: Saint James Park <br/>
+				  	 N 2nd St, San Jose, CA 95112 <br/>
+				  <a href="https://www.everfest.com/e/chacho-s-taco-festival-san-jose-ca"> Click here for more information </a> <br/>
+				   <br/>
+				  -San Jose Vietnamese Tet Festival 2018 <br/>
+				   When: sometime in January 2018; dates uncomfirmed <br/> 
+				   Where: Santa Clara County Fairgorunds <br/>
+				          344 Tully Rd, San Jose, CA 95111 <br/>
+				   <a href="https://www.everfest.com/e/san-jose-vietnamese-tet-festival-san-jose-ca"> Click here for more information </a> </br>
+				   <br/>
+			      </p>
 		</div>
 		<div class="module">
 			<p>
 			<h2></h2>
-			The Mexican Resturant & Bar <br> Address: 19950 Hesperian Ct, Hayward, CA 94541 <br> Phone #: (510) 785-8200
-			</p>
-		</div>
-		<div class="module">
-			<p>
-			<h2></h2>
-			Asian Buffet <br> Address: 24100 Mission Blvd, Hayward, CA 94544 <br> Phone #: (510) 690-0888
-
-			</p>
-		</div>
-		<div class="module">
-			<p>
-			<h2></h2>
-			Chef's Experience China Bistro <br> Address: 22436 Foothill Blvd, Hayward, CA 94541 <br> Phone #: (510) 538-2868
-			</p>
-		</div>
-		<div class="module">
-			<p>
-			<h1>Events in Hayward</h1>
-			djsdksdl fsdlkfjlsdkjf sdlfjlkdsf skldjflsf sdlfjlksdjf sdl fsldfhldssfkhsdkfhsd sdlfjlsdkjf sd fsldj
-			</p>
-		</div>
-		<div class="module">
-			<p>
-			<h2></h2>
-			fukhsdhw8eythd dsogoeihgnwdhg w oidhgiehgsdujowei d ogwheohnv dsg oiedg ohns df 
-			</p>
-		</div>
-		<div class="module">
-			<p>
-			<h2></h2>
-			knduhe wfowiejfoij oiejw f wjoijrfwoi sjvfuewhhieo gvfoiejg gedvweughwu ivsoiegoijdi gvo djoijew dv
-			</p>
-		</div>
-		<div class="module">
-			<p>
-			<h2></h2>
-			wieuhnfeoh  foeijfoeij vdijo sgewog dv wuhfeiuhv vdu vwhsiovhhwohnv wsdivuhweo dgvouuhsd ojfwe
-			</p>
-		</div>
-		<div class="module">
-			<p>
-			<h1 style ="text-align:center;">Stores In Hayward</h1>
-			Taqueria Senaida's <br> Address: 150 Tennyson Rd. Hayward, CA 94544 <br> Phone #: (510) 783-6031 
-			</p>
-		</div>
-		<div class="module">
-			<p>
-			<h2></h2>
-			woehnfvo dviwjeov doijvowe dv owe ohvo wehdvou hweuhv wevuhwoegvowhevowe vwouehvweov weohnvw
-			</p>
-		</div>
-		<div class="module">
-			<p>
-			<h2></h2>
-			wuefnwoe vwoievohwe vhwoehnv weoihgvoweh fwioefiweuif whfwefwsfiuuwe duhvwuehv sweibfiuewbhivwe 
-			</p>
-		</div>
-		<div class="module">
-			<p>
-			<h2></h2>
-			gwjduinv dviwev w dovowidv owennwdonvd iewjdovnwdov nwsonvoiws uwdvoewunvsood ws vowisndvnwes dvsv
+			Jowl incididunt pig in pork chop, shoulder beef exercitation magna. Duis qui ground round irure. Do labore boudin sint deserunt nulla rump strip steak ex adipisicing aliqua enim. Beef ball tip ribeye in, cupidatat voluptate filet mignon rump laborum venison flank corned beef reprehenderit frankfurter prosciutto. <a href="#">Ut mollit pork loin velit minim venison chuck.</a>
 			</p>
 		</div>
 	</section>
