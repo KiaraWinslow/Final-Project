@@ -8,11 +8,6 @@
     - Animating the inset shadow on hover looks like the element is filling in from whatever side you specify ([top] and [left] accept negative values to become [bottom] and [right])
     - Multiple shadows can be stacked
     - If you're animating multiple shadows, be sure to keep the same number of shadows so the animation is smooth. Otherwise, you'll get something choppy.
-*/
-.fill:hover,
-.fill:focus {
-  box-shadow: inset 0 0 0 2em var(--hover);
-}
 
 .pulse:hover,
 .pulse:focus {
@@ -32,69 +27,16 @@
     box-shadow: 0 0 0 0 var(--hover);
   }
 }
-.close:hover,
-.close:focus {
-  box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover);
-}
 
-.raise:hover,
-.raise:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-  -webkit-transform: translateY(-0.25em);
-          transform: translateY(-0.25em);
-}
-
-.up:hover,
-.up:focus {
-  box-shadow: inset 0 -3.25em 0 0 var(--hover);
-}
-
-.slide:hover,
-.slide:focus {
   box-shadow: inset 6.5em 0 0 0 var(--hover);
 }
 
-.offset {
-  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
-}
-.offset:hover, .offset:focus {
-  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
-}
-
-.fill {
-  --color: #a972cb;
-  --hover: #cb72aa;
-}
 
 .pulse {
   --color: #ef6eae;
   --hover: #ef8f6e;
 }
 
-.close {
-  --color: #ff7f82;
-  --hover: #ffdc7f;
-}
-
-.raise {
-  --color: #ffa260;
-  --hover: #e5ff60;
-}
-
-.up {
-  --color: #e4cb58;
-  --hover: #94e458;
-}
-
-.slide {
-  --color: #8fc866;
-  --hover: #66c887;
-}
-
-.offset {
-  --color: #19bc8b;
-  --hover: #1973bc;
-}
 
 button {
   color: var(--color);
@@ -143,13 +85,3 @@ code {
   font: inherit;
 }
 
-/*
-  As a bonus, I will now begin including a shoddily written limerick or other high literary masterpiece in all my pens. Misspelled visual rhymes and two left feet are the spice of life. You're welcome.
-
-  [1/?] Glass cannon 
-  There was a young dev on the frontend
-  delighted to see folks affronted
-    They claimed satisfaction
-    provoking a reaction
-  but threw quite a fit when confronted
-*/
