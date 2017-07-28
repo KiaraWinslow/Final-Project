@@ -14,16 +14,3 @@ h2 {
 	background-color: #e6e6e6;
 	box-shadow: 0 2px 0 #c1c1c1;
 }
-button {
-  margin-top: 100px;
-  font-size: 16px;
-  line-height: 1.5;
-	padding: 10px 20px;
-	outline: none;
-	border: none;
-	cursor: pointer;
-	color: #333;
-	min-width: 200px;
-	background-color: #e6e6e6;
-	box-shadow: 0 2px 0 #c1c1c1;
-}
