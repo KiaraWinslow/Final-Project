@@ -1,3 +1,4 @@
+
 (function ($, window, document) {
 
 	$.fn.lineLoader = function( options ) {
@@ -751,11 +752,12 @@ function showLoader() {
     gradientBackground: true,
     speed: 0.6,
     color: '#ecf0f1',
-    gradientColor1: '#1abc9c',
-    gradientColor2: '#16a085'
+    gradientColor1: '#ffd1cc',
+    gradientColor2: '#FFC1BA'
   });
 }
 
 $('#reload').click(showLoader);
 
 showLoader();
+
