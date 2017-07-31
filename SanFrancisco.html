@@ -1,13 +1,13 @@
 <html>
 	  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Heebo|Megrim|Sacramento" rel="stylesheet">
 <style>
-	
+
 body {
 	background-color: #b0e0e6;
 	color: white;
 	font-family: "Heebo";
 	}
-	
+
   h1 {
   font-family: "Sacramento";
 }
@@ -20,11 +20,11 @@ body {
 
 <body>
 <h1 style="text-align:center; font-size:54px">S a n<br>F r a n c i s c o</h1>
-	
-	
-	
-	
-	
+
+
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing:border-box}
@@ -75,11 +75,11 @@ body {font-family: Verdana,sans-serif;}
   animation-duration: 1.5s;
 }
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 /* On smaller screens, decrease text size */
@@ -101,41 +101,39 @@ body {font-family: Verdana,sans-serif;}
 	<center><img src="attpark.jpg" style="width:50%"></center>
 </div>
 
-	
+
 <div class="mySlides fade">
 	<center><img src="alcatraz.jpg" style="width:50%"></center>
-</div>	
-	
+</div>
+
 <div class="mySlides fade">
 	<center><img src="nieves5.jpg" style="width:50%"></center>
 </div>
 
 <div class="mySlides fade">
 	<center><img src="5demayo.jpg" style="width:50%"></center>
-</div>	
-	
+</div>
+
 <div class="mySlides fade">
 	<center><img src="thehouse.jpg" style="width:50%"></center>
-</div>	
-	
+</div>
+
 <div class="mySlides fade">
 	<center><img src="tlc.jpg" style="width:50%"></center>
-</div>	
+</div>
 
 <div class="mySlides fade">
 	<center><img src="boba.jpg" style="width:50%"></center>
 </div>
-	
+
 <div class="mySlides fade">
 	<center><img src="sushiritto.jpg" style="width:50%"></center>
-</div>	
+</div>
 
-	
+
 <br>
 
 <div style="text-align:center">
-	<span class="dot"></span> 
-	<span class="dot"></span> 
 	<span class="dot"></span>
 	<span class="dot"></span>
 	<span class="dot"></span>
@@ -143,8 +141,10 @@ body {font-family: Verdana,sans-serif;}
 	<span class="dot"></span>
 	<span class="dot"></span>
 	<span class="dot"></span>
-	
-	
+	<span class="dot"></span>
+	<span class="dot"></span>
+
+
 </div>
 
 <script>
@@ -155,50 +155,50 @@ function showSlides() {
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
     for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
+       slides[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex> slides.length) {slideIndex = 1}    
+    if (slideIndex> slides.length) {slideIndex = 1}
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex-1].style.display = "block";  
+    slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 2000); // Change image every 3 seconds
 }
 </script>
-	
 
 
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <head>
   <meta charset="UTF-8">
   <title>1-4 expanding responsive columns</title>
-  
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-  
+
       <style>
       /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
       * {
@@ -218,7 +218,7 @@ body {
 	column-rule: 2px outset rgba(255, 255, 255);
 }
 
-.module {
+.module:not(.invisable) {
 	display: inline-block;
 	margin: 10px 0 1em 0;
 	list-style: none;
@@ -240,64 +240,65 @@ p {
   <section class="grid">
 		<div class="module">
 			<p>
-			<h2>Events</h2>
-			Latino Cultural District<br>2958 24th street, San Francisco, CA 94110<br>September 17th, 2017</br><br>Nihonmachi Street Fair<br>Japantown and Japan Center<br>August 5th & 6th</br>
+			<h2>Cultural Events</h2>
+			Latino Cultural District<br>2958 24th street<br>San Francisco, CA 94110<br>September 17th, 2017</br><br>Nihonmachi Street Fair<br>Japantown and Japan Center<br>August 5th & 6th</br><br>Dia de Los Muertos Sugar Skull Workshop<br>Mission Cultural Center for Latino Arts<br>San Francisco, CA<br>September 23rd, 2017
 			</p>
 		</div>
 		<div class="module">
 			<p>
-			<h2>3</h2>
-			 
+			<h2>Famous People Born / Raised in San Francisco</h2>
+			Steve Jobs (Co-founder of Apple inc.),<br>Ben Affleck(Actor)<br>Tom Hanks(Actor)<br>Bruce Lee(Actor)<br>Tupac Shakur(Rapper)<br>Daniel Handler(Lemony Snicket)<br>Tom Brady(Footbal Player)<br>Jerry Rice(Footbal Player)
 			</p>
 		</div>
-		<div class="module">
+		<div class="invisable">
 			<p>
-			<h2>4</h2>
-			
+			<h2></h2>
+
 			</p>
 		</div>
 		<div class="module">
 			<p>
 			<h2>Restaurants</h2>
-			Taqueria Los Coyotes<br>3036 16th Street San Francisco, CA 94103</br><br>San Jalisco<br>901 S Van Ness Ave San Francisco, CA 94110</br><br>The House<br>1230 Grant Ave San Francisco, CA 94133</br><br>Sushirrito<br>226 Kearny St San Francisco, CA 94109
+			Taqueria Los Coyotes<br>3036 16th Street<br>San Francisco, CA 94103</br><br>Gary Danko<br>800 North Point St.<br>San Francisco, CA 94109</br><br>San Jalisco<br>901 S Van Ness Ave<br>San Francisco, CA 94110</br><br>Boulevard Restaurant<br> 1 Mission St.<br>San Francisco, CA 94105</br><br>The House<br>1230 Grant Ave<br>San Francisco, CA 94133</br><br>Foreign Cinema<br>2534 Mission St.<br>San Francisco, CA 94110</br><br>La Taqueria<br>2889 Mission St.<br>San Francisco, CA 94110</br><br>Sushirrito<br>226 Kearny St San Francisco, CA 94109
 			</p>
 		</div>
-		<div class="module">
+
+
+		<div class="invisable">
 			<p>
 			</p>
 		</div>
+
 		<div class="module">
+			<p>
+			<h2>Other Events</h2>
+			Classic Hip-Hop Night<br>Public Works 161 Erie St.<br>San Francisco, CA 94103<br>9/16/17 9:00 p.m-2:00 a.m</br><br>Creative family Fun-Luminous Lighthouse<br>50 Morgara Ave.<br>San Francisco, CA 94129<br>Aug. 5th 2017 11:00 a.m-4:00 p.m
+			</p>
+		</div>
+
+		<div class="module">
+			<p>
+			<h2>Cultural Stores</h2>
+			Hiep-Thanh Market<br>724 Larkin Street<br>San Francisco, CA 94109</br><br>Niniya Market<br>Japan Center<br>San Francisco, CA</br><br>Mi Tierra Market<br>2023 Mission Street<br>San Francisco, CA 94110</br><br>Casa Lucas Market<br>2934 24th Street<br>San Francisco, CA 94110
+			</p>
+		</div>
+		<div class="invisable">
 			<p>
 			</p>
 		</div>
-		<div class="module">
-			<p>
-	
-			</p>
-		</div>
-		<div class="module">
-			<p>
-			<h2>Stores</h2>
-			Hiep-Thanh Market<br>724 Larkin Street San Francisco, CA 94109</br><br>Niniya Market<br>Japan Center San Francisco, CA<br>Mi Tierra Market<br>2023 Mission Street San Francisco, CA 94110<br>Casa Lucas Market<br>2934 24th Street San Francisco, CA 94110
-			</p>
-		</div>
-		<div class="module">
-			<p>
-			</p>
-		</div>
-		<div class="module">
+		<div class="invisable">
 			<p>
 
 			</p>
 		</div>
-		<div class="module">
+		<div class="invisable">
 			<p>
-		
+
 			</p>
 		</div>
 	</section>
-  
 
-      
+
+
  </body>
 </html>
