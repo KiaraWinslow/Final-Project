@@ -1,13 +1,13 @@
 <html>
   <link href="https://fonts.googleapis.com/css?family=Bad+Script|Heebo|Megrim|Sacramento" rel="stylesheet">
 <style>
-	
+
 body {
 	background-color: #D4EFDF;
 	color: white;
 	font-family: "Heebo";
 	}
-	
+
   h1 {
   font-family: "Sacramento";
 }
@@ -15,14 +15,14 @@ body {
   font-family:"Bad SCript";
 }
 	</style>
-	
+
 <title>Oakland</title>
 <body>
 <h1 style="text-align:center; font-size:54px">O a k l a n d</h1>
-	
-	
-	
-	
+
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing:border-box}
@@ -73,11 +73,11 @@ body {font-family: Verdana,sans-serif;}
   animation-duration: 1.5s;
 }
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 /* On smaller screens, decrease text size */
@@ -92,56 +92,56 @@ body {font-family: Verdana,sans-serif;}
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-	<center><img src="oakfirst.jpg" style="width:65% height:30%;"></center>
+	<center><img src="oakfirst.jpg" style="height: 500px;"></center>
 </div>
 
 <div class="mySlides fade">
-	<center><img src="oakland.jpg" style="width:65% height:30%;"></center>
+	<center><img src="oakland.jpg" style="height: 500px;"></center>
 </div>
 
 <div class="mySlides fade">
-	<center><img src="oak2.jpg" style="width:50%"></center>
-</div>
-	
-<div class="mySlides fade">
-	<center><img src="oak3.jpg" style="width:50%"></center>
-</div>
-	
-<div class="mySlides fade">
-	<center><img src="oak4.jpg" style="width:50%"></center>
-</div>	
-	
-<div class="mySlides fade">
-	<center><img src="oak5.jpg" style="width:50%"></center>
+	<center><img src="oak2.jpg" style="height: 500px"></center>
 </div>
 
 <div class="mySlides fade">
-	<center><img src="oak6.jpg" style="width:50%"></center>
-</div>	
-	
-<div class="mySlides fade">
-	<center><img src="oak7.jpg" style="width:50%"></center>
-</div>	
-	
-<div class="mySlides fade">
-	<center><img src="oak8.jpg" style="width:50%"></center>
-</div>	
+	<center><img src="oak3.jpg" style="height: 500px"></center>
+</div>
 
 <div class="mySlides fade">
-	<center><img src="oak9.jpg" style="width:50%"></center>
+	<center><img src="oak4.jpg" style="height: 500px"></center>
 </div>
-	
+
 <div class="mySlides fade">
-	<center><img src="oak10.jpg" style="width:50%"></center>
+	<center><img src="oak5.jpg" style="height: 500px"></center>
 </div>
-	
-	
+
+<div class="mySlides fade">
+	<center><img src="oak6.jpg" style="height: 500px"></center>
+</div>
+
+<div class="mySlides fade">
+	<center><img src="oak7.jpg" style="height: 500px"></center>
+</div>
+
+<div class="mySlides fade">
+	<center><img src="oak8.jpg" style="height: 500px"></center>
+</div>
+
+<div class="mySlides fade">
+	<center><img src="oak9.jpg" style="height: 500px"></center>
+</div>
+
+<div class="mySlides fade">
+	<center><img src="oak10.jpg" style="height: 500px"></center>
+</div>
+
+
 <br>
 
 <div style="text-align:center">
-	<span class="dot"></span> 
-	<span class="dot"></span> 
-	<span class="dot"></span> 
+	<span class="dot"></span>
+	<span class="dot"></span>
+	<span class="dot"></span>
 	<span class="dot"></span>
 	<span class="dot"></span>
 	<span class="dot"></span>
@@ -160,27 +160,27 @@ function showSlides() {
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
     for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
+       slides[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex> slides.length) {slideIndex = 1}    
+    if (slideIndex> slides.length) {slideIndex = 1}
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex-1].style.display = "block";  
+    slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 2000); // Change image every 3 seconds
 }
-</script>	
+</script>
 
 
 <head>
   <meta charset="UTF-8">
   <title>1-4 expanding responsive columns</title>
-  
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-  
+
       <style>
       /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
       * {
@@ -216,117 +216,160 @@ p {
 
 <body>
   <section class="grid">
-		<div class="module">
+
+    <div class="module">
 			<p>
-			<h2>Best Restaurants:</h2>
-			   <h4> - Boiling Crab <br/>
-				  71 Curtner Ave, San Jose, CA 95125 <br/>
-				   <br>
-				-Taqueria Eduardo <br/>
-				 3123 Williamsburg Dr, San Jose, CA 95117<br/>
-				   <br> 
-				-Gen Korean BBQ House<br/>
-				 1628 Hostetter Rd, San Jose, CA 95131<br/>
-				   <br>
-				-Falafel's Drive-In<br/>
-				 2301 Stevens Creek Blvd, San Jose, CA 95128<br/>
-				   <br>
-				-Mizu Sushi Bar & Grill<br/>
-				 1035 S Winchester Blvd, San Jose, CA 95128 <br/></h4>			
+  		<h2>Best Restaurants:</h2>
+			   <h4> - Little Shin Shin <br/>
+				  4258 Piedmont Ave, Oakland, CA 94611
+          (510)-658-9799
+          <a href="http://www.littleshinshin.com/menu.html"> Click here for more information </a> <br/>
+			 <br>
+				-Enssaro Ethiopian Restaurant <br/>
+				 357A Grand Ave, Oakland, CA 9461
+          (510)-238-9050
+          <a href="http://places.singleplatform.com/enssaro-ethiopian-restaurant/menu?ref=google"> Click here for more information </a> <br/>
+         <br/>
+
+      <br>
+				-Everett and Jones<br/>
+				 126 Broadway, Oakland, CA 94607
+         (510)-663-2350
+         <a href="http://places.singleplatform.com/everett--jones-barbeque/menu?ref=google"> Click here for more information </a> <br/><br/>
+
+      <br>
+				-El Taco Zamorano<br/>
+				 4032 Foothill Blvd, Oakland, CA 94601
+         (510)-536-3146<br/>
+
+      <br>
+				-Guadalajara<br/>
+        1001 Fruitvale Ave, Oakland, CA 94601
+        (510)-533-7194
+         <a href="http://www.guadalajaraoakland.com/yahoo_site_admin1/assets/docs/Guadalajara_Menu_2017_Website.9150940.pdf"> Click here for more information </a> <br/></h4>
 			</p>
 		</div>
-		<div class="module">
+
+
+    <div class="module">
 			<p>
 			<h2>Best Snack Shops:</h2>
-			
-			
+      <h4> -Lee's Sandwiches <br/>
+       530 E 12th St, Oakland, CA 94606
+       (510)-986-8888
+       <a href="http://www.leesandwiches.com/main.php?act=storedetail&catid=64&idstore=68"> Click here for more information </a> <br/>
+      <br>
+       -El Tio Juan Taco Truck <br/>
+       4076 Foothill Blvd Oakland, California<br/>
+      <br>
+       -Churros Guerrero<br/>
+        4398 Bancroft Ave, Oakland, CA 94601<br/>
+      <br>
+       -Churros Mexicanos<br/>
+        3352 E 12th St, Oakland, CA 94601
+         (510)-290-0952<br/></h4>
+
 			</p>
 		</div>
 	<div class="invisible">
-			<p>
-			<h2></h2>
-			Shankle bacon dolor non, shoulder in commodo mollit ullamco dolore short loin eu irure labore jowl. Minim beef filet mignon, chuck consectetur ut in sausage deserunt capicola. Dolore bresaola consequat, ham hock aliqua sirloin short loin est pancetta venison frankfurter capicola. Fugiat jerky bresaola nisi. <a href="#">Pork chop consectetur tempor in kielbasa ex.</a>
-			</p>
+
 		</div>
 		<div class="module">
 			<p>
 			<h2> Shops To Visit: </h2>
-			   <h4> -Grand Century Mall <br/>
-				 1111 Story Rd, San Jose, CA 95122 <br/>
+			   <h4> -Los Mexicanos Market <br/>
+           1244 High St, Oakland, CA 94620
+           (510)-536-0717<br/>
 				 <br>
-				 -Japantown Farmer's Market <br/>
-				  251-, 299 Jackson St, San Jose, CA 95112 <br/>
-				  <br>
-				  -Namaste Plaza <br/>
-				   1763 E Capitol Expy, San Jose, CA 95121 <br/>
-				   <br>
-				  -Mi Pueblo Food Center <br/>
-				   1745 Story Rd, San Jose, CA 95122 <br/>
-				   <br>
-				  -La Villa <br/>
-				   1319 Lincoln Ave, San Jose, CA 95125 <br/>
-				   <br>	
+				 -Mi Pueblo Food Center <br/>
+				  1630 High St, Oakland, CA 94601
+          (510) 532-2654<br/>
+				 <br>
+				  - Specialty Foods Inc <br/>
+          535 8th St
+          Oakland, CA 94607
+          b/t Clay St & Washington St, Old Oakland<br/>
+				 <br>
+				  -Yasai Produce Market <br/>
+          6301 College Ave
+          Oakland, CA 94618 at 63rd St
+          Elmwood, Rockridge, North Oakland <br/>
+
+				 <br>
 			</p>
 		</div>
 		<div class="module">
 			<p>
 			<h2> Major Shopping Centers: </h2>
-			  <h4> -Westfield Valley Fair <br/>
-				2855 Stevens Creek Blvd, Santa Clara, CA 95050 <br/>
+			  <h4> -Oakland City Center <br/>
+          Downtown Oakland
+          500 12th St
+          Oakland, CA 94612
+          Phone number:(510)-830-1650
+          <a href="http://www.oaklandcitycenter.com/"> Click here for more information </a> <br/>
 				<br>
-			       - Santana Row <br/>
-				 377 Santana Row, San Jose, CA 95128 <br/>
-				 <br>
-			       -Westfield Oakridge <br/>
-				925 Blossom Hill Rd, San Jose, CA 95123 <br/>
+			       -Jack London Square <br/>
+             Jack London Square
+             2 Broadway
+             Oakland, CA 94607
+             Phone number:(510)-645-9292
+             <a href="http://www.jacklondonsquare.com/"> Click here for more information </a> <br/>
+
+       <br>
+			       - Alameda South Shore Center <br/>
+             523 S Shore Ctr W
+             Alameda, CA 94501
+             Phone number: (510)-521-1515
+             <a href="http://www.alamedasouthshorecenter.com/"> Click here for more information </a> <br/>
+
 				<br>
-			        -Eastridge Center <br/>
-				 2200 Eastridge Loop #2062, San Jose, CA 95122 <br/>
-				 <br>	 
+
 			</p>
 		</div>
 		<div class="module">
 			<p>
-			<h2> Cool Events To Attend: </h2>
-			  <h4> -Dia De Los Muertos <br/>
-				When: around Halloween time <br/>
-				Where: Calvary Catholic Cemetary <br/>
-				       2650 Madden Ave, San Jose, CA 95116 <br/>
-				  <a href="https://www.everfest.com/e/san-jose-dia-de-los-muertos-festival-san-jose-ca"> Click here for more information </a> <br/>
-				<br>
-				-Festival of Globe Extravaganza 2017 <br/>
-				 When: August 4 - August 13 <br/>
-				 Where: multiple locations in San Jose <br/>
-				 <a href="https://www.everfest.com/e/festival-of-globe-extravaganza-san-jose-ca"> Click here for more information </a> <br/> 
-				 <br/>
-				-Mar Yosip Parish Assyrian Food Festival 2017 <br/>
-				 When: August 19 - August 20 <br/>
-				 Where: East Mar Yosip Parish <br/>
-				  	680 Minnesota Ave, San Jose, CA 95125 <br/>
-				  <a href="https://www.everfest.com/e/mar-yosip-parish-assyrian-food-festival-san-jose-ca"> Click here for more information </a> <br/>
-				  <br>
-				 -Chacho's Taco Festival 2017 <br/>
-				  When: sometime in August; dates uncomfirmed <br/>
-				  Where: Saint James Park <br/>
-				  	 N 2nd St, San Jose, CA 95112 <br/>
-				  <a href="https://www.everfest.com/e/chacho-s-taco-festival-san-jose-ca"> Click here for more information </a> <br/>
-				   <br/>
-				  -San Jose Vietnamese Tet Festival 2018 <br/>
-				   When: sometime in January 2018; dates uncomfirmed <br/> 
-				   Where: Santa Clara County Fairgorunds <br/>
-				          344 Tully Rd, San Jose, CA 95111 <br/>
-				   <a href="https://www.everfest.com/e/san-jose-vietnamese-tet-festival-san-jose-ca"> Click here for more information </a> </br>
-				   <br/>
-			      </p>
+			<h2> Oakland Events: </h2>
+
+        <h4> -Dia De Los Muertos Festival <br/>
+				When: around October 31 to November 2  <br/>
+				Where: Fruitvale Village- E 12th St & 33rd Ave Oakland<br/>
+			  <a href="https://www.everfest.com/e/fruitvale-oakland-dia-de-los-muertos-festival-oakland-ca"> Click here for more information </a> <br/>
+
+      	<br>
+				-First Fridays <br/>
+				 When: Every first friday of every month<br/>
+				 Where: Telegraph Avenue between Grand Avenue and 27th Street in the KONO District and Telegraph Ave & 24th St Oakland<br/>
+				 <a href="https://www.everfest.com/e/oakland-first-fridays-oakland-ca"> Click here for more information </a> <br/>
+
+        <br/>
+				-Oakland Dragon Boat Festival<br/>
+				 When: August  <br/>
+				 Where: Lake Merritt 568 Bellevue Avenue Oakland, CA <br/>
+				 <a href="https://www.everfest.com/e/oakland-dragon-boat-festival-oakland-ca"> Click here for more information </a> <br/>
+
+         <br>
+				 -Art + Soul Oakland<br/>
+				  When: Aug 19-20, 2017  <br/>
+				  Where: Frank H. Ogawa Plaza|1 Frank H Ogawa Plaza Oakland, CA <br/>
+				  <a href="https://www.everfest.com/e/art-soul-oakland-oakland-ca"> Click here for more information </a> <br/>
+
+          <br/>
+				  -Umoja African Festival and Soccer Tournament <br/>
+				   When: Aug 26 <br/>
+				   Where: Lowell Park|1180 14th Street Oakland, CA <br/>
+				  <a href="https://www.everfest.com/e/umoja-african-festival-and-soccer-tournament-oakland-ca"> Click here for more information </a> </br>
+				  <br/>
+
+				  -Oakland Pride Parade + Festival<br/>
+				   When: Sep 10, <br/>
+				   Where: Broadway between 14th and 21st Streets|Broadway and 20th St Oakland, CA <br/>
+				  <a href="https://www.everfest.com/e/oakland-pride-parade-festival-oakland-ca"> Click here for more information </a> </br>
+			    </p>
 		</div>
-		<div class="module">
-			<p>
-			<h2></h2>
-			Jowl incididunt pig in pork chop, shoulder beef exercitation magna. Duis qui ground round irure. Do labore boudin sint deserunt nulla rump strip steak ex adipisicing aliqua enim. Beef ball tip ribeye in, cupidatat voluptate filet mignon rump laborum venison flank corned beef reprehenderit frankfurter prosciutto. <a href="#">Ut mollit pork loin velit minim venison chuck.</a>
-			</p>
-		</div>
+
 	</section>
 
-      
+
 </body>
 </html>
+
